@@ -33,7 +33,7 @@ A fully assebled network scanner, with the two Raspberry Pis and OLED displays i
 
 The scan can be started and stopped over the web frontend.
 <table align="center"><tr><td align="center" width="9999">
-<img src="images/scan.png" width=50%></img>
+<img src="images/scan.png" width=25%></img>
 </td></tr></table>
 
 The results are shown in a table.
