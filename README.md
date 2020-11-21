@@ -3,6 +3,8 @@
 ![C/C++ build](https://github.com/hsainnos/ICSscannerDiode/workflows/C/C++%20build/badge.svg)
 ![Python Integration](https://github.com/hsainnos/ICSscannerDiode/workflows/pythonBuild%20and%20Lint/badge.svg)
 ![Python Bandit](https://github.com/hsainnos/ICSscannerDiode/workflows/pythonBandit/badge.svg)
+![zapproxy](https://github.com/hsainnos/ICSscannerDiode/workflows/zapproxy/badge.svg)
+![Flawfinder C](https://github.com/hsainnos/ICSscannerDiode/workflows/flawFinder%20C/badge.svg)
 
 <table align="center"><tr><td align="center" width="9999">
 <img src="images/demo.gif" width=50%></img>
