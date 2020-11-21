@@ -1,4 +1,6 @@
-# Secure Segemented Industrial Control System Network Scanner
+# A Secure Network Scanner Architecture for Asset Management in Strongly Segmented ICS Networks
+
+![C/C++ build](https://github.com/hsainnos/ICSscannerDiode/workflows/C/C++%20build/badge.svg)
 
 <table align="center"><tr><td align="center" width="9999">
 <img src="images/demo.gif" width=50%></img>
