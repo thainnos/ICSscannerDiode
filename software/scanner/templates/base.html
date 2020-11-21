@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICS Network Scanner</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <span class="navbar-brand">ICSscan</span>
+    <div class="mr-auto">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link {% if login %}active{% endif %}" href="/login">Login</a>
+            <a class="nav-item nav-link {% if scan %}active{% endif %}" href="/scan">Scan</a>
+            <a class="nav-item nav-link {% if scanresults %}active{% endif %}" href="/scanresults">Results</a>
+            <a class="nav-item nav-link {% if logout %}active{% endif %}" href="/logout">Logout</a>
+        </div>
+    </div>
+</nav>
+
+<div class="jumbotron">
+    {% block content %}
+    {% endblock %}
+</div>
+
+</html>

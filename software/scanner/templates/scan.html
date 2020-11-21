@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="form-group" >
+  <form action="/startscan" method="get">
+    <input type="submit" value="Start scan">
+  </form> &nbsp;
+  <form action="/stopscan" method="get">
+    <input type="submit" value="Stop scan">
+  </form>
+</div>
+
+{% endblock %}
