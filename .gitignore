@@ -79,3 +79,8 @@ thumbs.db
 *.hex
 *.elf
 
+# Ingore certificates #
+#######################
+*.pem
+
+
